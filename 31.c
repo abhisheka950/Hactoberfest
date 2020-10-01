@@ -1,12 +1,12 @@
 #include <stdio.h>
 void main(){
-    int n,i,sum=0;
-    scanf("%d",&n);
-    for(i=1;i<n;i++){
-        if(n%i==0){
+    int ni,i,sum=0;
+    scanf("%d",&ni);
+    for(i=1;i<ni;i++){
+        if(ni%i==0){
             sum=sum+i;
         }
-    }if(n==sum){
+    }if(ni==sum){
         printf("perfect no");
     }
     else{
