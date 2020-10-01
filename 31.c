@@ -7,9 +7,9 @@ void main(){
             sum=sum+i;
         }
     }if(n==sum){
-        printf("perfect no");
+        printf("perf no");
     }
     else{
-        printf("not a perfect no");
+        printf("not a perf no");
     }
 }
