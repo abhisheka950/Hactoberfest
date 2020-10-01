@@ -9,9 +9,9 @@ void main(){
         sum=sum+pow(rem,3);
         n=n/10;
     }if (sum==k){
-        printf("armstrong number");
+        printf("arm number");
     }
     else{
-        printf("not an armstrong number");
+        printf("not an arm number");
     }
 }
