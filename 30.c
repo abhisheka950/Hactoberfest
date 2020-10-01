@@ -2,9 +2,9 @@
 #include <math.h>
 
 void main(){
-    int n,m,rem,sum,k;
-    scanf("%d",&n);
-    for (m=1;m<=n;m++){
+    int ni,m,rem,sum,k;
+    scanf("%d",&ni);
+    for (m=1;m<=ni;m++){
         sum=0;
         k=m;
         while(k>0){
